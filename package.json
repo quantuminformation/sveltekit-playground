@@ -3,7 +3,9 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"build": "svelte-kit build --verbose",
+		"debug:dev": "node --inspect node_modules/@sveltejs/kit/dist/cli.js dev",
+		"debug:start": "node --inspect node_modules/@sveltejs/kit/dist/cli.js start",
 		"start": "svelte-kit start",
 		"lint": "prettier --check .",
 		"format": "prettier --write ."
