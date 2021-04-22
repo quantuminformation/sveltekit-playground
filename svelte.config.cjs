@@ -16,6 +16,7 @@ module.exports = {
 			ssr: {
 				noExternal: Object.keys(pkg.dependencies || {})
 			}
+			//	build:{sourcemap:true}
 		}
 	}
 };
